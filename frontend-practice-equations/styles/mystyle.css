@@ -4,7 +4,8 @@
  
  .first-view {
      background-color: blue;
-     color: red;
+     text-align: center;
+     margin: 0 auto;
 
 }
 button {
@@ -12,5 +13,6 @@ button {
 }
 
 body {
-    background-color: yellow
+    background-color: LightSkyBlue;
+    font-family: Ariel Black body copy;
 }
