@@ -1,0 +1,16 @@
+ .hidden {
+     display: "none"
+ }
+ 
+ .first-view {
+     background-color: blue;
+     color: red;
+
+}
+button {
+    background-color: powderblue;
+}
+
+body {
+    background-color: yellow
+}
