@@ -1,6 +1,29 @@
 let configURL = "http://localhost:3000/"
 let signUpURL = `${configURL}api/v1/users`
 
+
+
+function renderOperatorButtons(){
+    let container = document.querySelector(".first-view");
+    container.innerHTML = "";
+    container.innerHTML = `
+        <button type="button" id="plus-operator-button">+</button>
+        <button type="button" id="minus-operator-button">-</button>
+        <button type="button" id="times-operator-button">*</button>
+        <button type="button" id="divide-operator-button">/</button>
+    `
+
+    let pOB = document.getElementById("plus-operator-button");
+    let mOB = document.getElementById("minus-operator-button");
+    let tOB = document.getElementById("times-operator-button");
+    let dOB = document.getElementById("divide-operator-button");
+
+    pOB.addEventListener("click", function(e){
+        let fN = float(random(0) + 1);
+        let newAdditionQuestion = new Question()
+    })
+}
+
 function submitSignUp(){
     let signUpSubmitB = document.getElementById("sign-up-submit");
     //debugger
