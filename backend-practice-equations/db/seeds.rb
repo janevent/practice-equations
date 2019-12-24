@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.create(username: 'JayWalker', password: 'password')
 
-Game.create(points: 0, stars: 0, status: incomplete)
+Game.create(points: 0, stars: 0, user_id: 1)
